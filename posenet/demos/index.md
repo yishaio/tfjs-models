@@ -1,30 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <script defer src="face-api.min.js"></script>
-  <script defer src="script.js"></script>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    canvas {
-      position: absolute;
-    }
-  </style>
-</head>
-<body>
-  <p>This is a test</p>
-  <video id="video" width="720" height="560" autoplay muted></video>
-</body>
+<html>
+  <head>
+    <title>PoseNet Demos</title>
+  </head>
+  <body>
+    <h1>PoseNet Demos</h1>
+    <ul>
+      <li><a href='camera.html'>Pose Estimation - Camera feed demo</a></li>
+      <li><a href='coco.html'>Pose Estimation - Image demo</a></li>
+    </ul>
+  </body>
 </html>
